@@ -15,6 +15,8 @@
 		24EBFD042976178E0089D546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EBFD022976178E0089D546 /* Main.storyboard */; };
 		24EBFD06297617910089D546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EBFD05297617910089D546 /* Assets.xcassets */; };
 		24EBFD09297617910089D546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EBFD07297617910089D546 /* LaunchScreen.storyboard */; };
+		24EBFD1129761DA50089D546 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EBFD1029761DA50089D546 /* GameObject.swift */; };
+		24EBFD14297628D50089D546 /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EBFD13297628D50089D546 /* Ocean.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		24EBFD032976178E0089D546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24EBFD05297617910089D546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24EBFD08297617910089D546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24EBFD1029761DA50089D546 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		24EBFD13297628D50089D546 /* Ocean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,9 @@
 		24EBFCEC2976178E0089D546 = {
 			isa = PBXGroup;
 			children = (
+				24EBFD15297629C00089D546 /* Assets */,
+				24EBFD12297628980089D546 /* GameObjects */,
+				24EBFD0F29761D840089D546 /* Core */,
 				24EBFCF72976178E0089D546 /* MAPD724-ICE-1A */,
 				24EBFCF62976178E0089D546 /* Products */,
 			);
@@ -69,6 +76,29 @@
 				24EBFD07297617910089D546 /* LaunchScreen.storyboard */,
 			);
 			path = "MAPD724-ICE-1A";
+			sourceTree = "<group>";
+		};
+		24EBFD0F29761D840089D546 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				24EBFD1029761DA50089D546 /* GameObject.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		24EBFD12297628980089D546 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				24EBFD13297628D50089D546 /* Ocean.swift */,
+			);
+			path = GameObjects;
+			sourceTree = "<group>";
+		};
+		24EBFD15297629C00089D546 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +174,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24EBFD1129761DA50089D546 /* GameObject.swift in Sources */,
 				24EBFCFF2976178E0089D546 /* GameScene.swift in Sources */,
+				24EBFD14297628D50089D546 /* Ocean.swift in Sources */,
 				24EBFD012976178E0089D546 /* GameViewController.swift in Sources */,
 				24EBFCF92976178E0089D546 /* AppDelegate.swift in Sources */,
 			);
