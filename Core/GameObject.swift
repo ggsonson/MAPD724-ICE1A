@@ -23,7 +23,7 @@ class GameObject : SKSpriteNode {
     
     // constructor
     init(imageString: String, initScale: CGFloat){
-        let texture = SKTexture(imageNamed: imageString)
+        let texture = SKTexture(imageNamed: imageString) //texture = Image
         let color = UIColor.clear
         super.init(texture: texture, color: color, size: texture.size())
         
