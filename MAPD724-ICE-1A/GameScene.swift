@@ -17,8 +17,14 @@ class GameScene: SKScene {
     var ocean2: Ocean?
     var player: Player?
     
+    var screenSize = UIScreen.main.bounds
+    var screenHeight: CGFloat?
+    var screenWidth: CGFloat?
+    
     override func sceneDidLoad() {
       name = "GAME"
+        screenHeight = screenSize.height
+        screenWidth = screenSize.width
         
         //add ocean to scene
         ocean1 = Ocean()  // instantiate new Ocean allocate memory

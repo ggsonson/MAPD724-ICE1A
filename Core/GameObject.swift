@@ -8,7 +8,7 @@
 import GameplayKit
 import SpriteKit
 
-class GameObject : SKSpriteNode {
+class GameObject : SKSpriteNode, GameProtocol {
     // public instance members
     var horizontalSpeed: CGFloat?
     var verticalSpeed: CGFloat?
